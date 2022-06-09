@@ -1,0 +1,5 @@
+"sayed mohamed",123444789,"gleem street","+0123457789",8,500,true,10,21, 12
+"mohamed alaa",123455589,"gleem street","+0123446789",5,700,false,11,22, 14
+"alaa hassan",123466789,"smouha street","+0123356789",0,900,true,12,23, 16
+"hassan moustafa",123356789,"elsyoof street","+0122456789",15,200,true,13,24, 18
+"moustafa ahmed",123456889,"ibrahemia street","+0121456789",7,350,false,14,25, 20

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anchorpane1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="482.0" prefWidth="600.0" style="-fx-border-color: darkblue; -fx-background-color: lightskyblue;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerHR">
+   <children>
+      <TextArea fx:id="ta1" layoutX="25.0" layoutY="25.0" prefHeight="237.0" prefWidth="550.0" />
+      <Button fx:id="addVip" layoutX="445.0" layoutY="308.0" mnemonicParsing="false" onAction="#opentableJanitor" text="add janitor" />
+      <Button fx:id="showAccountant" layoutX="43.0" layoutY="308.0" mnemonicParsing="false" onAction="#showAccountant" text="show workers" textFill="#1b0101" />
+      <Button fx:id="addAccountant" layoutX="203.0" layoutY="308.0" mnemonicParsing="false" onAction="#opentableGuard" text="add guard" />
+      <Button fx:id="addOfficeBoy" layoutX="308.0" layoutY="308.0" mnemonicParsing="false" onAction="#opentablOfficeBoy" text="add officeBoy" />
+      <Button fx:id="editOfficeBoy" layoutX="45.0" layoutY="374.0" mnemonicParsing="false" onAction="#editOfficeBoy" text="edit workers " textFill="#282222" />
+      <Button fx:id="addAtmRepairEngineer" layoutX="378.0" layoutY="374.0" mnemonicParsing="false" onAction="#opentableAtmRepairEngineer" text="add atmRepairEngineer" />
+      <Button fx:id="addCurrencyExchanger" layoutX="203.0" layoutY="374.0" mnemonicParsing="false" onAction="#opentableCurrencyExchanger" text="add currencyExchanger" />
+   </children>
+</AnchorPane>
